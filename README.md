@@ -82,8 +82,8 @@ A RESTful Node.js + Express API to asynchronously ingest data with batch process
 ## Running the App Locally
 
 ```bash
-git clone https://github.com/<your-username>/data-ingestion-api.git
-cd data-ingestion-api
+git clone https://github.com/hollermay/loopaiassn.git
+cd LoopAIAssn
 npm install
 npm run dev
 ```
@@ -111,7 +111,10 @@ npm test
 * Rate limit: Ensures one batch every 5 seconds
 * Priority: Ensures higher priority batches are processed first
 
-Add a screenshot of the successful test run here:
+Screenshot of test:
+
+
+![image](https://github.com/user-attachments/assets/0b27e618-d5ce-4551-badf-8f3c9422353e)
 
 ```
 > PASS  test/ingestion.test.js
@@ -153,16 +156,14 @@ curl https://your-app-name.herokuapp.com/status/YOUR_INGESTION_ID
 ---
 
 ## 📌 Design Notes
-
 * Priorities handled using array of queues
 * Batch queue processed via interval (setInterval)
 * No real external API — mocked with delay and static response
 * Easily extensible to use message queues or DB persistence
-
 ---
 
 ## And you know me well :)
 
-**Your Name**
-GitHub: [@your-github](https://github.com/hollermay)
-Email: [your@email.com](mailto:udayanmoudgil@email.com)
+**Udayan Sharma**
+GitHub: [Link](https://github.com/hollermay)
+Email: [Link](mailto:udayanmoudgil@email.com)
