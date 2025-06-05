@@ -4,7 +4,7 @@ A RESTful Node.js + Express API to asynchronously ingest data with batch process
 
 ---
 
-## 🚀 Features
+## Features
 
 * **Two endpoints**:
   * `POST /ingest` → Submit ingestion request with IDs and priority
@@ -18,11 +18,11 @@ A RESTful Node.js + Express API to asynchronously ingest data with batch process
 
 ---
 
-## 📦 API Endpoints
+## API Endpoints
 
 ### 1. `POST /ingest`
 
-#### ✅ Request Body:
+#### Request Body:
 
 ```json
 {
@@ -46,7 +46,7 @@ A RESTful Node.js + Express API to asynchronously ingest data with batch process
 
 ### 2. `GET /status/:ingestion_id`
 
-#### ✅ Response:
+#### Response:
 
 ```json
 {
@@ -59,7 +59,7 @@ A RESTful Node.js + Express API to asynchronously ingest data with batch process
 }
 ```
 
-#### 📘 Status Rules:
+#### Status Rules:
 
 * **Batch level**: `yet_to_start`, `triggered`, `completed`
 * **Ingestion level**:
@@ -70,7 +70,7 @@ A RESTful Node.js + Express API to asynchronously ingest data with batch process
 
 ---
 
-## 🏗 Tech Stack
+## Tech Stack
 
 * Node.js
 * Express.js
@@ -79,7 +79,7 @@ A RESTful Node.js + Express API to asynchronously ingest data with batch process
 
 ---
 
-## 🧪 Running the App Locally
+## Running the App Locally
 
 ```bash
 git clone https://github.com/<your-username>/data-ingestion-api.git
@@ -104,7 +104,7 @@ Run Jest tests:
 npm test
 ```
 
-### ✅ Tests Include:
+### Tests Include:
 
 * Ingestion API: Valid requests, response format
 * Status API: Correct status transitions
@@ -127,7 +127,7 @@ Add a screenshot of the successful test run here:
 ### 1. Add a `Procfile`:
 
 ```
-web: node server.js
+web: nodemon server.js
 ```
 
 ### 2. Push to Heroku:
@@ -161,14 +161,8 @@ curl https://your-app-name.herokuapp.com/status/YOUR_INGESTION_ID
 
 ---
 
-## 👨‍💻 Author
+## And you know me well :)
 
 **Your Name**
-GitHub: [@your-github](https://github.com/your-github)
-Email: [your@email.com](mailto:your@email.com)
-
----
-
-## 📄 License
-
-MIT
+GitHub: [@your-github](https://github.com/hollermay)
+Email: [your@email.com](mailto:udayanmoudgil@email.com)
