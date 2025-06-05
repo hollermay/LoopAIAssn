@@ -167,4 +167,4 @@ curl https://loopaiassn-aadd1b761927.herokuapp.com/status/YOUR_INGESTION_ID
 
 **Author**: Udayan Sharma  
 **GitHub**: [hollermay](https://github.com/hollermay)  
-**Email**: udayanmoudgil@email.com
+**Email**: udayanmoudgil@gmail.com
